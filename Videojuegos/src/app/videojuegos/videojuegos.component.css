@@ -1,0 +1,52 @@
+
+nav {
+
+    position: relative;
+    display: block;
+    background-color: gainsboro;
+    border: solid 3px;
+    border-color: black;
+    width: 90%;
+    height: 50%;
+    left: 3%;
+    padding: 2%;
+   
+}
+
+input {
+    display: block;
+    margin-bottom: 2%;
+}
+
+input:enabled{
+    background-color: lemonchiffon;
+}
+
+div.tabla {
+    position: absolute;
+    top: 68%;
+    left: 3.5%;
+
+    background-color: aliceblue;
+
+}
+
+table {
+    
+    width: 50%;
+    
+}
+
+button {
+    display: inline;
+    margin-right: 1%;
+    box-shadow: 15px 15px 10px #4c545e;
+            background-color: hotpink;
+}
+
+button:hover {
+    cursor: cell;
+    border: solid 2px;
+    border-color: black;
+
+}
